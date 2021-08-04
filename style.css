@@ -87,6 +87,7 @@ input[type="number"] {
     background: #4445ff;
     cursor: pointer;
 }
+
 .range::-moz-range-thumb{
     width: 2.2em;
     height: 2.2em;
