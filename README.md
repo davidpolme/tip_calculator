@@ -1,4 +1,4 @@
-# tip_calculator
+# Tip Calculator
 An useful Tip Calculator made in Javascript.
 Live Preview: https://davidpolme.github.io/tip_calculator/
 Screenshot:
