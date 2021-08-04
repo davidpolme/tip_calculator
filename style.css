@@ -1,0 +1,66 @@
+html{
+    font-size: 1em;
+    color: #0D0735;
+}
+
+main{
+    max-width: 50rem;
+    margin: 2em auto;
+    background: linear-gradient(30deg, #4445ff, #0D0735);
+    padding: 3em 1.6em 6em 1.6em;
+    border-radius: 4em;
+    box-shadow: 0 2px 2px lightgray;
+}
+
+h1{
+    text-align: center;
+    font-size: 3em;
+    margin: 0;
+    padding-bottom: 1em;
+    color: white;
+}
+
+section{
+    background-color: #FAFAFF;
+    font-size: 1.8em;
+    margin-bottom: 1em;
+    padding: 0 1em;
+    border-radius: 1em;
+    box-shadow: inset 0 2px 2px lightgray;
+}
+
+section > div {
+    padding: 1em 0;
+}
+
+.bill{
+    display: flex;
+}
+
+.bill label{
+    flex: 1;
+    align-self: center;
+}
+
+.bill input{
+    flex: 3;
+}
+
+input[type="number"] {
+    background-color: #FAFAFF;
+    font-size: 1em;
+    border: 1px solid lightgray;
+    border-radius: 0.5em;
+    padding: 0.8em 0 0.8em 0.8em; 
+    box-shadow: inset 0 2px 2px lightgray;
+}
+
+.space-between{
+    display: flex;
+    justify-content: space-between;
+}
+
+.total{
+    font-size: 1.5em;
+    font-weight: bolder;
+}
