@@ -7,7 +7,8 @@ html{
 }
 
 main{
-    max-width: 50rem;
+    max-width: 50em;
+    max-height: 80vh;
     margin: 2em auto;
     background: linear-gradient(30deg, #4445ff, #0D0735);
     padding: 3em 1.6em 6em 1.6em;
@@ -33,12 +34,13 @@ section{
 }
 
 section > div {
-    padding: 1em 0;
+    padding: 1vh 0;
 }
 
 .bill{
     display: flex;
 }
+
 
 .bill label{
     flex: 1;
@@ -62,11 +64,13 @@ input[type="number"] {
 .space-between{
     display: flex;
     justify-content: space-between;
+    flex-direction: row;
 }
 
 .total{
     font-size: 1.5em;
     font-weight: bolder;
+    flex-direction: row;
 }
 
 .range{
